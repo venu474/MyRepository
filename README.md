@@ -1,3 +1,3 @@
-# MyRepositor
+# MyRepository
 Hi Hello,
   Welcme to my public repository...
