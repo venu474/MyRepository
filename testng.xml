@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GRID SAMPLE TEST" thread-count="2">
+<test name="GRID TEST WITH SERIAL EXECUTION WITH BROWSER IE">
+<parameter name ="browserType" value="IE"/>
+<classes>
+<class name ="Sample_GridClass"/>
+</classes>
+</test>
+<test name="GRID TEST WITH SERIAL EXECUTION WITH BROWSER FF ">
+<parameter name ="browserType" value="firefox"/>
+<classes>
+<class name ="Sample_GridClass"/>
+</classes>
+</test>
+<test name="GRID TEST WITH SERIAL EXECUTION WITH BROWSER FF ">
+<parameter name ="browserType" value="chrome"/>
+<classes>
+<class name ="Sample_GridClass"/>
+</classes>
+</test>
+</suite>
